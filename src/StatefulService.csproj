@@ -8,6 +8,7 @@
     <PackageReference Include="DotNext.AspNetCore.Cluster" Version="3.3.0" />
     <PackageReference Include="DotNext.Net.Cluster" Version="3.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Routing" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
   </ItemGroup>
 
