@@ -7,7 +7,12 @@
       "request": "launch",
       "preLaunchTask": "build",
       "program": "${workspaceFolder}/src/bin/Debug/net5.0/StatefulService.dll",
-      "args": [],
+      "args": [
+        "--urls",
+        "http://127.0.0.1:5001",
+        "--members:0",
+        "http://127.0.0.1:5001"
+      ],
       "cwd": "${workspaceFolder}/src",
       "stopAtEntry": false,
       "env": {
